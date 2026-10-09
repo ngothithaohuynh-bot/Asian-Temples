@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asian Temples & Pagodas - Home & Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js" defer></script>
+</head>
+
+<body onload="addTabindex()">
+    <!-- Accessibility Skip to Main Content Link -->
+    <a class="skip-link" href="#main">Skip to Main Content</a>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="southeast_asia.html">Temple History</a></li>
+                <li><a href="gallery.html">Interactive Gallery</a></li>
+            </ul>
+        </nav>
+        <img class="header-img" src="https://images.pexels.com/photos/37615202/pexels-photo-37615202.jpeg"
+            alt="Tran Quoc Pagoda illuminated at night beside West Lake in Hanoi, Vietnam.">
+        <h1>Sacred Asian Temples & Pagodas</h1>
+    </header>
+
+    <main id="main">
+        <h2>Welcome to Asian Temple Architecture</h2>
+        <p>Explore the spiritual heritage, and historic architecture across Vietnam, Japan, Thailand,
+            China, India and Cambodia. Below is our interactive gallery featuring iconic Asian temples.</p>
+
+        <h2>Interactive Temple Gallery</h2>
+        <div id="image">
+            Hover or focus over an image below to display here.
+        </div>
+
+        <div class="gallery">
+            <img class="preview" alt="Tran Quoc Pagoda illuminated at night beside West Lake in Hanoi, Vietnam."
+                src="https://images.pexels.com/photos/37615202/pexels-photo-37615202.jpeg" onmouseover="upDate(this)"
+                onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+
+            <img class="preview"
+                alt="Colorful gopuram of a Hindu temple in Kodihalli, India showcasing intricate sculptures against a blue sky."
+                src="https://images.pexels.com/photos/6416960/pexels-photo-6416960.jpeg" onmouseover="upDate(this)"
+                onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+
+            <img class="preview"
+                alt="Wat Arun Temple of Dawn with majestic spires along Chao Phraya River in Bangkok, Thailand."
+                src="https://images.pexels.com/photos/30073413/pexels-photo-30073413.jpeg" onmouseover="upDate(this)"
+                onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+
+            <img class="preview" alt="Traditional multi-tiered Chinese pagoda standing under blue sky in China."
+                src="https://images.pexels.com/photos/12590953/pexels-photo-12590953.jpeg" onmouseover="upDate(this)"
+                onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+
+            <img class="preview"
+                alt="Beautiful view of Kiyomizu Dera Temple in Kyoto, showcasing traditional Japanese architecture under a vibrant sky."
+                src="https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg" onmouseover="upDate(this)"
+                onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+
+            <img class="preview"
+                alt="Explore the stunning architecture of Angkor Wat temple with a vibrant sky backdrop."
+                src="https://images.pexels.com/photos/38200110/pexels-photo-38200110.jpeg" onmouseover="upDate(this)"
+                onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+        </div>
+    </main>
+
+    <footer>
+        <p>Asian Temples Photo Gallery &copy; 2026. Built for Coursera Web Design Accessibility & Interactivity.</p>
+    </footer>
+</body>
+
+</html>
